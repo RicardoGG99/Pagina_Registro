@@ -1,0 +1,49 @@
+.cabecera {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #fff059;
+  }
+  
+  .logo {
+    width: 80px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 0px;
+  }
+  
+  .texto {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  
+  .aparta {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .separador {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .busqueda {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .barra {
+    height: 12px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .iconoBusqueda {
+    padding: 6px;
+    height: 22px;
+    background-color: teal;
+  }
+  
